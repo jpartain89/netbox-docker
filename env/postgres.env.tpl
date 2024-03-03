@@ -1,0 +1,3 @@
+POSTGRES_DB=netbox
+POSTGRES_PASSWORD={{ op://dev/Netbox/POSTGRES/DB_PASSWORD }}
+POSTGRES_USER={{ op://dev/Netbox/POSTGRES/DB_USER }}

@@ -1,0 +1,1 @@
+REDIS_PASSWORD={{ op://dev/Netbox/REDIS/REDIS_PASSWORD }}
