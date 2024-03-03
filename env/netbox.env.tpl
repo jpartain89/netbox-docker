@@ -1,5 +1,5 @@
 CORS_ORIGIN_ALLOW_ALL=True
-DB_HOST=postgres
+DB_HOST=netbox-postgres
 DB_NAME=netbox
 DB_PASSWORD={{ op://dev/Netbox/POSTGRES/DB_PASSWORD }}
 DB_USER={{ op://dev/Netbox/POSTGRES/DB_USER }}
