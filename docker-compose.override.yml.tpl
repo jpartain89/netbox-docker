@@ -15,12 +15,6 @@ services:
       # Default value in our docker-compose.yml is 60s
       # start_period: 90s
     restart: unless-stopped
-    environment:
-      SKIP_SUPERUSER: "false"
-      SUPERUSER_API_TOKEN: "{{ op://dev/Netbox/SUPERUSER/API_TOKEN }}"
-      SUPERUSER_EMAIL: "jpartain@jpcdi.com"
-      SUPERUSER_NAME: "jpartain89"
-      SUPERUSER_PASSWORD: "{{ op://dev/Netbox/SUPERUSER/PASSWORD }}"
   netbox-worker:
     restart: unless-stopped
   netbox-housekeeping:
